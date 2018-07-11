@@ -1,5 +1,7 @@
 # Convert MS Word Document to PDF on Excel
-このパッケージは，Excelを使用してWord文書をPDFへ変換するものです．
+このパッケージは，Excelを使用してWord文書をPDFへ変換するものです．  
+環境の違いで実行できない場合は，パッケージにある`.bas`のスクリプトを適当に切り取って使用してください．  
+バグ報告は著者(下記参照)まで．
 
 # Requirements
 - Microsoft Excel

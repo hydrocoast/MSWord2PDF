@@ -18,5 +18,6 @@ MIT
 
 # Author
 Takuya Miyashita   
-Doctoral student, Kyoto University  
-([personal web site](https://hydrocoast.jp))  
+Doctoral student, Kyoto University   
+miyashita @ hydrocoast.jp   
+[personal web site](https://hydrocoast.jp)  

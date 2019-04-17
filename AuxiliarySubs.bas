@@ -30,15 +30,8 @@ Sub DocList(PathName, row_ini, col_ini)
     Dim fname As String
     Dim cnt As Long
     cnt = 0
-    
-    fname = Dir(PathName + "\*.docx")
-    Do Until fname = ""
-        cnt = cnt + 1
-        Call PrintWS(row_ini + cnt, col_ini, PathName + "\" + fname)
-        fname = Dir()
-    Loop
 
-    fname = Dir(PathName + "\*.doc")
+    fname = Dir(PathName + "\*.doc?")
     Do Until fname = ""
         cnt = cnt + 1
         Call PrintWS(row_ini + cnt, col_ini, PathName + "\" + fname)

@@ -24,13 +24,13 @@ Sub Main()
     
     ' Check 1
     If nfile > 100 Then
-        MsgBox "No file to be converted" + vbCrLf + "ƒZƒ‹‚Éƒtƒ@ƒCƒ‹–¼‚ğ“ü—Í‚µ‚Ä‚­‚¾‚³‚¢"
+        MsgBox "No file to be converted" + vbCrLf + "ã‚»ãƒ«ã«ãƒ•ã‚¡ã‚¤ãƒ«åã‚’å…¥åŠ›ã—ã¦ãã ã•ã„"
         Exit Sub
     End If
             
     ' Check 2
     If chk <> nfile Then
-        MsgBox "Error: Invalid number of I/O file" + vbCrLf + "I/Oƒtƒ@ƒCƒ‹‚Ì”‚ªˆá‚¢‚Ü‚·"
+        MsgBox "Error: Invalid number of I/O file" + vbCrLf + "I/Oãƒ•ã‚¡ã‚¤ãƒ«ã®æ•°ãŒé•ã„ã¾ã™"
         Exit Sub
     End If
 
@@ -40,7 +40,7 @@ Sub Main()
     Set ChkObj = GetObject(, "Word.Application")
     On Error GoTo 0
     If Not ChkObj Is Nothing Then
-        MsgBox "Error: Close MS Word application before this procedure" + vbCrLf + "WordƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ªŠJ‚¢‚Ä‚¢‚Ü‚·D•Â‚¶‚Ä‚©‚çÄ“xÀs‚µ‚Ä‚­‚¾‚³‚¢D"
+        MsgBox "Error: Close MS Word application before this procedure" + vbCrLf + "Wordã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ãŒé–‹ã„ã¦ã„ã¾ã™ï¼é–‰ã˜ã¦ã‹ã‚‰å†åº¦å®Ÿè¡Œã—ã¦ãã ã•ã„ï¼"
         Exit Sub
     End If
     ''''''Call CloseMSWordAll
@@ -69,7 +69,7 @@ Sub Main()
     'Close the application
     objWord.Quit
     
-    MsgBox "Finish"
+    MsgBox "Successfully completed"
 End Sub
 Sub SetFileInfo(ISheet, Irow, Icol, OSheet, Orow, Ocol)
     Dim IWS, OWS As Worksheet

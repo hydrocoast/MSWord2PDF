@@ -16,4 +16,3 @@ Sub CloseMSWordAll()
         On Error GoTo 0
     Loop
 End Sub
-

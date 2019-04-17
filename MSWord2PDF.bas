@@ -30,7 +30,7 @@ Sub Main()
             
     ' Check 2
     If chk <> nfile Then
-        MsgBox "Error: Invalid number of I/O file" + vbCrLf + "I/Oファイルの数が違います"
+        MsgBox "Error: Invalid number of I/O file" + vbCrLf + "I/Oファイルの数が一致していません"
         Exit Sub
     End If
 
